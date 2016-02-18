@@ -1,5 +1,5 @@
 function [vector] = getParVector(filePath, rowNames, w2vVectors)
-    str = textread(filePath, '%s','delimiter','','bufsize', 8191);
+    str = textread(filePath, '%s','delimiter','','bufsize', 13191);
     newStr = regexprep(str,'<\w*\s?/?>',''); %remove html tags
     newStr = regexprep(newStr,'([\.\,])',' '); %replace dot and commas with space
     newStr = regexprep(newStr,'([^a-zA-Z\s])',''); %delete special chars
