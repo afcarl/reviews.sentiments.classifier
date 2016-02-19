@@ -4,4 +4,6 @@ libsvm/*
 neg/*
 pos/*
 vectors.txt
+svmpredict.mexa64
+svmtrain.mexa64
 
