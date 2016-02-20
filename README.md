@@ -1,4 +1,4 @@
-# Building Movies Reviews Classifier
+# Movies Reviews Sentiment Classifier
 
 #### This code aims to build a classifier on movie reviews. ####
 The classification is binary, meaning we aim to predict whether a review is positive or negative.
