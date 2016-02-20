@@ -1,9 +1,10 @@
 # Building Movies Reviews Classifier
 
-## This code aims to build a classifier on movie reviews. The classification is binary, meaning we aim to predict whether a review is positive or negative.
+#### This code aims to build a classifier on movie reviews. ####
+#### The classification is binary, meaning we aim to predict whether a review is positive or negative.
 
 
-##### Step1: For each review in the dataset, convert the review to a fixed size vector. 
+#### Step1: For each review in the dataset, convert the review to a fixed size vector. 
   1.1 Place the reviews in Data/neg & Data/pos.
   1.2 Place the word2vec representation text file as: Data/vectors.txt.
   1.3 Run InitialDatasetCreation/GenerateTrainingData.m.
