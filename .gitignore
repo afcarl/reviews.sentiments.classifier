@@ -1,9 +1,5 @@
 W2V/*
-dataset
 libsvm/*
-neg/*
-pos/*
 vectors.txt
-svmpredict.mexa64
-svmtrain.mexa64
-
+google_news_output.txt
+.gitignore~
