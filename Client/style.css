@@ -1,0 +1,12 @@
+h1, textarea  {
+    text-align: center;
+}
+.button-up {
+    display: none;
+    background-color: #A2E487 !important
+}
+
+.button-down {
+    display: none;
+    background-color: #F14B4B !important
+}

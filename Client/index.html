@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Reviews Classifier Demo</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="logic.js"></script>
+
+<body>
+    <div class="col-md-3 col-sm-3"></div>
+    <div class="col-md-6 col-sm-6">
+        <div class="row">
+            <h1> Movie Reviews Classifier Demo </h1>
+        </div>
+        <div class="row">
+            <h3>Please enter a movie review and click submit to get the review classification.</h3>
+        </div>
+        <div class="row">
+            <textarea class="form-control" rows="7"></textarea>
+        </div>
+        <div class="row">
+            <button type="submit" class="btn btn-default">Submit</button>
+
+            <button type="button" class="submit btn btn-default" aria-label="Left Align">
+                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+            </button>
+            <button type="button" class="btn btn-default button-down" aria-label="Left Align">
+                <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+            </button>
+            <button type="button" class="btn btn-default button-up" aria-label="Left Align">
+                <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+    <form action="review" method="post" class="hidden-form" style="display: none;">
+        <input id = "content" class="hidden-input" name="content" type="text"/>
+        <button class="submit-button" type="submit"></button>
+    </form>
+</body>
+</html>
